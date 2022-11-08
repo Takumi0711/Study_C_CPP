@@ -17,6 +17,4 @@ void main() {
 	else {
 		printf("–³Œø‚È”š‚Å‚·");
 	}
-
-	
 }
