@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void main() {
-	int i;
+	/*int i;
 	for (i = 1; i <= 5; i++) {
 		printf("%d ",i);
 	}
@@ -14,5 +14,18 @@ void main() {
 			printf("%d+%d=%d ", j, k, j + k);
 		}
 		printf("\n");
+	}*/
+
+	int i = 0;
+	while (i <= 5) {
+		printf("%d\n", i);
+		i++;
 	}
+
+	int j = 10;
+	do{
+		printf("%d\n", j);
+		j++;
+	} while (j <= 5);
+	printf("\n");
 }
